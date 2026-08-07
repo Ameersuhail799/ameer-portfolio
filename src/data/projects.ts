@@ -96,7 +96,7 @@ export const projects: Project[] = [
       { label: "Architecture", value: "Next.js 14 App Router" },
       { label: "Design System", value: "Cyber-Glassmorphism" },
     ],
-    liveUrl: "https://ameer-portfolio.vercel.app/",
+    liveUrl: "https://ameer-portfolio-khaki.vercel.app/",
     githubUrl: "https://github.com/Ameersuhail799/ameer-portfolio.git",
   },
   {
@@ -106,6 +106,7 @@ export const projects: Project[] = [
     category: "Full Stack",
     featured: true,
     gradient: "from-purple-900/60 via-indigo-900/40 to-cyan-950/60",
+    imageUrl: "/images/apms-preview.png",
     description: "A centralized web platform for KTU students and faculty admins to record, categorize, and verify the mandatory 100 activity credit points.",
     longDescription: "Under APJ Abdul Kalam Technological University (KTU), every B.Tech student must earn 100 activity points across sports, cultural events, hackathons, and social initiatives. Activity Point Manager simplifies this process with certificate uploads, credit calculations, status tracking, and admin verification dashboards.",
     technologies: ["JavaScript ES6+", "React", "Node.js", "Express", "MongoDB"],
@@ -120,7 +121,7 @@ export const projects: Project[] = [
       { label: "Required Credits", value: "100 Points" },
       { label: "Core Benefit", value: "Automated Credit Calc" },
     ],
-    liveUrl: "https://github.com/Ameersuhail799/ameer-portfolio.git",
+    liveUrl: "https://apms-activity-points.vercel.app/",
     githubUrl: "https://github.com/Ameersuhail799/ameer-portfolio.git",
   },
   {
